@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ultradzwiek
+D Ultradźwiękowy czujnik 
+K sensor ultradźwięk pomiar 
+$ENDCMP
+#
+#End Doc Library
