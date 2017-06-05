@@ -1,0 +1,12 @@
+readme kodów
+#########
+tutaj piszcie jakie funkcje trzeba napisać :-)
+dobrze by potem było na moduły podzielić/ biblioteki etc.
+###########
+1.Obsługa USART 
+  a.Wysyłanie znaków przez UART
+  b.Odbieranie znaków przez UART
+2.Funkcja mierząca ultradźwiękami
+  a. Wystawianie TRIG
+  b. Mierzenie czasu z ECHO
+  c. Konwersja wyniku do wysłania
