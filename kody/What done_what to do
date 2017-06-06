@@ -10,3 +10,6 @@ dobrze by potem było na moduły podzielić/ biblioteki etc.
   a. Wystawianie TRIG
   b. Mierzenie czasu z ECHO
   c. Konwersja wyniku do wysłania
+3.Funkcje wybudzania i usypiania
+  a. Sprawdzić PIN ring w trakcie odbierania wiad/dzwonienia
+  b. Obsługa przerwania external (INT0/1/2 - należy wybrać) 
