@@ -41,6 +41,13 @@ ISR(USART_RXC_vect) /*VECTOR(11), USART, RxComplete*/
 	InputFifo.buff[InputFifo.wi++]=UDR; //umieszczenie danej w kolejce
 	if (InputFifo.wi == FIFO_L) InputFifo.wi = 0;
 }
+/*
+ * jo, tu mam taką złotą myśl, że sprawdzacie czy index tablicy dochodzi do wartości, którą ją inicjujecie
+ * czyli już o jeden za daleko. W związku z tym (o ile będzie takie miejsce w pamięci) nadpiszecie sobie jakąś
+ * inną zmienną. Poza tym, odczytując tę tablicę nie macie pojęcia które dane są najświeższe. To, że w następnej 
+ * funkcji odczytujecie po kolei, to nie znaczy, że nie tracicie danych, gdy częstotliwość odbioru jest większa.
+ */
+
 //----------------------------------------------------
 // zwraca: 0 -gdy bufor odbiornika pusty
 // 1 -gdy pobrany znak umieszczony w '*p_dada'
