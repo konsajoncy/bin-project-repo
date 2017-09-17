@@ -1,6 +1,6 @@
 /*
  * main.c
- *
+ *do przeklejnia do maina glownego :))
  *  Created on: 12 wrz 2017
  *      Author: Dunajski
  */
@@ -39,7 +39,7 @@ int main(void)
 	PORTD|=(1<<PD2); // pull up internal
 	DDRA|=(1<<PA0); //LEd bieda debadzer
 	sei();
-	ext_int_init();  // inicjalizacja przerwañ
+	ext_int_init();  // inicjalizacja przerwaÃ±
 	sleep_mode_init(); // inicjalizacja rodzaju uspienia
 	asm(" mov r0,r11; ldi r16,(1<<SE) ; out MCUCR, r16 ;sleep ;");  // wstawka do usypiania
 
