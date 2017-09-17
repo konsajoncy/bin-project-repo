@@ -1,8 +1,5 @@
 /*
  * main.c
- *
- *  Created on: 23 mar 2017
- *      Author: Wonszu
  */
 #include <avr/io.h>
 #define F_CPUX 8000000L
