@@ -4,8 +4,10 @@ tutaj piszcie jakie funkcje trzeba napisać :-)
 dobrze by potem było na moduły podzielić/ biblioteki etc.
 ###########
 1.Obsługa USART 
-  a.Wysyłanie znaków przez UART
-  b.Odbieranie znaków przez UART
+  a.Wysyłanie znaków przez UART  // nie wiem czy będziecie korzystać z tego scalaka co wam dałem
+  b.Odbieranie znaków przez UART // ale jeśli tak, to tam jest bufor, więc musicie utworzyć bufor 
+                                 // odbierania/wysyłania software'owy. Polecam rozwiązanie circular-buffer
+                                 // https://en.wikipedia.org/wiki/Circular_buffer zdaje się, że ten ma 4kB
 2.Funkcja mierząca ultradźwiękami
   a. Wystawianie TRIG
   b. Mierzenie czasu z ECHO
